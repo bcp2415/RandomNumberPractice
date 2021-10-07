@@ -1,5 +1,5 @@
 for (i=0; i < 20; i++){
-  let num = Math.random();
+  let num = (Math.round(Math.random() * 10) + 20);
   console.log(num);
 }
 
